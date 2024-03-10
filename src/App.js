@@ -32,6 +32,7 @@ function App() {
       desc: "Help to achieve you dreams"
     }
   ];
+  console.log("APP.js",typeof(textArray));
   
   return (
     <>
