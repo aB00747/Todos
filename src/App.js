@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <Header {...headerProps} />
-      <Todos {...textArray}/>
+      <Todos todoData = {textArray}/>
       <TodosIteams />
       <Footer />
     </>
